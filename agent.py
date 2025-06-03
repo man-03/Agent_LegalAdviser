@@ -12,7 +12,7 @@ class HybridAgent:
         self.collection = self.client.get_or_create_collection(name=collection_name)
         self.llm = ChatGroq(
             model_name="llama3-70b-8192",
-            groq_api_key="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"
+            groq_api_key="ENTER GROQ API KEY"
         )
 
     def query(self, user_input):
